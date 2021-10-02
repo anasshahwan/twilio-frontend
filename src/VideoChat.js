@@ -9,7 +9,7 @@ const VideoChat = () => {
   const [room, setRoom] = useState(null);
 
   const apiUrl =
-    "http://ec2-3-133-116-159.us-east-2.compute.amazonaws.com:80/video/token";
+    "http://ec2-18-221-248-238.us-east-2.compute.amazonaws.com/:80/video/token";
   const [connecting, setConnecting] = useState(false);
 
   const handleUsernameChange = useCallback((event) => {
